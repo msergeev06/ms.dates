@@ -9,7 +9,6 @@
 
 use Ms\Core\Lib\Loc;
 Loc::includeLocFile(__FILE__);
-msDebugNoAdmin(Loc::getArMess());
 
 return array(
 	'NAME' => Loc::getModuleMessage('ms.dates','name'),
